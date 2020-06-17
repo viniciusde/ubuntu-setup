@@ -3,6 +3,9 @@ sudo apt-get update
 echo 'installing Java 11'
 sudo apt install openjdk-11-jdk
 
+echo 'installing maven'
+sudo apt-get -y install maven
+
 echo 'installing curl' 
 sudo apt install curl -y
 
