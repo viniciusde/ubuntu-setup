@@ -6,6 +6,12 @@ sudo apt install openjdk-11-jdk
 echo 'installing maven'
 sudo apt-get -y install maven
 
+echo 'installing npm'
+sudo apt install npm
+
+echo 'installing node'
+sudo apt install nodejs
+
 echo 'installing curl' 
 sudo apt install curl -y
 
